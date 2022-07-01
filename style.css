@@ -6,13 +6,13 @@ body{
     position:absolute;
     height: 50px;
     width: 100%;
-    background-color: #ff4500;
+    background-color:#ff4500;
     z-index: 6;
 }
 .sidebar{
     position: absolute;
     width: 100%;
-    background-color:powderblue;
+    background-color:#7fc242;
     height: 100vh;
     z-index: 5;
     padding-top: 50px;
@@ -58,6 +58,9 @@ body{
   .main-content{
     margin-left: 50px;
   }
+}
+.col-lg-3{
+    padding-top: 10px;
 }
 @media  (max-width:575.98px) {
     .sidebar{

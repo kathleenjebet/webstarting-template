@@ -1,3 +1,7 @@
+<?php
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,13 +18,15 @@
 <body>
 	<!-- All our code. write here   -->
 	<div class="header">
+		<img src="images/zalego.jfif" alt="zalego" height="50" width="50" class="rounded-circle">
+		<a href="#" class="navbar-trigger"><span>  </span></a>
 
 	</div>
 	<div class="sidebar">
 		<nav>
 			<ul>
 				<li>
-					<a href="">
+					<a href="students.php">
 						<span> <i class="fa fa-group"></i></span>
 						<span>Students</span>
 					</a>
@@ -86,7 +92,7 @@
 						<span>Users</span>
 					</div>
 					<div class="card-body">
-						<span><i class="fa fa-student fa-3x"></i></span>
+						<span><i class="fa fa-user fa-3x"></i></span>
 					<span class="float-right">00</span>
 					</div>
 					<div class="card-footer"></div>
@@ -96,7 +102,7 @@
 						<span>Student Analysis</span>
 					</div>
 					<div class="card-body">
-						<span><i class="fa fa-folder fa-3x"></i></span>
+						<span><i class="fa fa-line-chart fa-3x"></i></span>
 					<span class="float-right">00</span>
 					</div>
 					<div class="card-footer"></div>
